@@ -23,7 +23,7 @@ class ResultViewController: UIViewController {
         
     // 1画面目のViewControllerから遷移するときにprepareForSegueで
     //nameViewには入力された名前が入っている
-         label.text = "結果は \(nameView) です"
+        label.text = "こんにちは \(String(describing: nameView!)) さん"
     }
     
 
